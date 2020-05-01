@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+  box-sizing: border-box;
+  overflow-x: hidden!important;
+}
+
+body {
+
+  font-family: $default-font;
+  font-size: $default-font-size;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-grey-dark-2;
+  background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+
+  overflow-x: hidden!important;
+}
